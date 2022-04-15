@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" rx="12"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="220" height="630" fill="#0f172a" rx="12"/>
+  <rect x="220" y="0" width="1" height="630" fill="#334155"/>
+  <!-- Logo -->
+  <rect x="24" y="24" width="36" height="36" rx="8" fill="#3b82f6"/>
+  <text x="42" y="49" font-family="system-ui,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">O</text>
+  <text x="72" y="48" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="white">OpsBoard</text>
+  <!-- Nav items -->
+  <rect x="16" y="90" width="188" height="36" rx="8" fill="#1e3a8a" opacity="0.3"/>
+  <text x="36" y="113" font-family="system-ui,sans-serif" font-size="13" fill="#60a5fa">Dashboard</text>
+  <text x="36" y="149" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Projects</text>
+  <text x="36" y="181" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Team</text>
+  <text x="36" y="213" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Activity</text>
+  <text x="36" y="245" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Files</text>
+  <text x="36" y="277" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Notifications</text>
+  <text x="36" y="309" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Webhooks</text>
+  <text x="36" y="341" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Settings</text>
+  <!-- Admin section -->
+  <text x="36" y="390" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#475569" letter-spacing="1">ADMIN</text>
+  <text x="36" y="413" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">Admin Panel</text>
+  <text x="36" y="445" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8">System Health</text>
+  <!-- User avatar -->
+  <circle cx="40" cy="600" r="16" fill="#1e40af"/>
+  <text x="40" y="605" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">JD</text>
+  <text x="66" y="596" font-family="system-ui,sans-serif" font-size="12" fill="white">John Doe</text>
+  <text x="66" y="612" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">john@company.com</text>
+  <!-- Header -->
+  <rect x="220" y="0" width="980" height="56" fill="#0f172a"/>
+  <rect x="220" y="56" width="980" height="1" fill="#334155"/>
+  <!-- Search bar -->
+  <rect x="248" y="14" width="320" height="32" rx="8" fill="#1e293b"/>
+  <text x="270" y="35" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Search projects, tasks...</text>
+  <!-- Notification bell -->
+  <circle cx="1140" y="30" r="4" fill="#ef4444"/>
+  <!-- Stats Cards -->
+  <rect x="248" y="80" width="220" height="100" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="272" y="108" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Total Projects</text>
+  <text x="272" y="145" font-family="system-ui,sans-serif" font-size="32" font-weight="bold" fill="white">24</text>
+  <rect x="400" y="128" width="48" height="20" rx="10" fill="#064e3b"/>
+  <text x="424" y="142" font-family="system-ui,sans-serif" font-size="10" fill="#34d399" text-anchor="middle">+12%</text>
+  <rect x="488" y="80" width="220" height="100" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="512" y="108" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Active Tasks</text>
+  <text x="512" y="145" font-family="system-ui,sans-serif" font-size="32" font-weight="bold" fill="white">142</text>
+  <rect x="640" y="128" width="48" height="20" rx="10" fill="#064e3b"/>
+  <text x="664" y="142" font-family="system-ui,sans-serif" font-size="10" fill="#34d399" text-anchor="middle">+8%</text>
+  <rect x="728" y="80" width="220" height="100" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="752" y="108" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Team Members</text>
+  <text x="752" y="145" font-family="system-ui,sans-serif" font-size="32" font-weight="bold" fill="white">18</text>
+  <rect x="968" y="80" width="200" height="100" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="992" y="108" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Completion Rate</text>
+  <text x="992" y="145" font-family="system-ui,sans-serif" font-size="32" font-weight="bold" fill="white">87%</text>
+  <!-- Chart area -->
+  <rect x="248" y="200" width="710" height="260" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="272" y="228" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Projects</text>
+  <!-- Chart lines -->
+  <line x1="290" y1="250" x2="290" y2="430" stroke="#334155" stroke-width="1"/>
+  <line x1="290" y1="430" x2="920" y2="430" stroke="#334155" stroke-width="1"/>
+  <!-- Bar chart -->
+  <rect x="330" y="280" width="40" height="150" rx="4" fill="#3b82f6" opacity="0.8"/>
+  <rect x="400" y="310" width="40" height="120" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="470" y="260" width="40" height="170" rx="4" fill="#3b82f6" opacity="0.9"/>
+  <rect x="540" y="340" width="40" height="90" rx="4" fill="#3b82f6" opacity="0.5"/>
+  <rect x="610" y="290" width="40" height="140" rx="4" fill="#3b82f6" opacity="0.7"/>
+  <rect x="680" y="320" width="40" height="110" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="750" y="270" width="40" height="160" rx="4" fill="#3b82f6" opacity="0.85"/>
+  <rect x="820" y="350" width="40" height="80" rx="4" fill="#3b82f6" opacity="0.4"/>
+  <!-- Task Distribution panel -->
+  <rect x="978" y="200" width="190" height="260" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="1002" y="228" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Tasks</text>
+  <!-- Stacked bar -->
+  <rect x="1002" y="248" width="142" height="12" rx="6" fill="#94a3b8" opacity="0.3"/>
+  <rect x="1002" y="248" width="90" height="12" rx="6" fill="#3b82f6"/>
+  <rect x="1002" y="248" width="40" height="12" rx="6" fill="#8b5cf6"/>
+  <!-- Distribution items -->
+  <circle cx="1014" cy="285" r="5" fill="#94a3b8"/>
+  <text x="1028" y="289" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">To Do</text>
+  <text x="1138" y="289" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="end">24</text>
+  <circle cx="1014" cy="310" r="5" fill="#3b82f6"/>
+  <text x="1028" y="314" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">In Progress</text>
+  <text x="1138" y="314" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="end">18</text>
+  <circle cx="1014" cy="335" r="5" fill="#8b5cf6"/>
+  <text x="1028" y="339" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">In Review</text>
+  <text x="1138" y="339" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="end">8</text>
+  <circle cx="1014" cy="360" r="5" fill="#10b981"/>
+  <text x="1028" y="364" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">Completed</text>
+  <text x="1138" y="364" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="end">92</text>
+  <!-- Activity section -->
+  <rect x="248" y="480" width="920" height="130" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="272" y="508" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Recent Activity</text>
+  <!-- Activity items -->
+  <circle cx="280" cy="540" r="12" fill="#1e40af"/>
+  <text x="280" y="544" font-family="system-ui,sans-serif" font-size="10" fill="white" text-anchor="middle">S</text>
+  <text x="300" y="540" font-family="system-ui,sans-serif" font-size="12" fill="white">Sarah Chen</text>
+  <text x="395" y="540" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">created project</text>
+  <text x="510" y="540" font-family="system-ui,sans-serif" font-size="12" fill="white">Mobile App Redesign</text>
+  <text x="1140" y="540" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="end">5m ago</text>
+  <circle cx="280" cy="572" r="12" fill="#1e40af"/>
+  <text x="280" y="576" font-family="system-ui,sans-serif" font-size="10" fill="white" text-anchor="middle">M</text>
+  <text x="300" y="572" font-family="system-ui,sans-serif" font-size="12" fill="white">Marcus Johnson</text>
+  <text x="420" y="572" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">completed task</text>
+  <text x="535" y="572" font-family="system-ui,sans-serif" font-size="12" fill="white">API Integration Tests</text>
+  <text x="1140" y="572" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="end">30m ago</text>
+</svg>
