@@ -4,6 +4,15 @@ Full-stack operations management platform built with Next.js 14, TypeScript, and
 
 ![Preview](./assets/preview.svg)
 
+### Dashboard
+![Dashboard](./assets/dashboard.svg)
+
+### Authentication
+![Login](./assets/login.svg)
+
+### Projects
+![Projects](./assets/projects.svg)
+
 ## Features
 
 - **Authentication** — Email/password + GitHub OAuth with JWT sessions
