@@ -83,3 +83,7 @@ src/
 ## License
 
 MIT
+
+## Deployment
+
+Build with `npm run build` and deploy the `.next` standalone output.
