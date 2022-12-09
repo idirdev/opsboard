@@ -1,14 +1,8 @@
 import { z } from 'zod';
 
-export const projectSchema = z.object({
-  name: z.string().min(1).max(100),
-  description: z.string().max(500).optional(),
-  status: z.enum(['active', 'archived', 'draft']),
-  priority: z.enum(['low', 'medium', 'high', 'critical']).default('medium'),
-  teamId: z.string().uuid().optional(),
-  startDate: z.coerce.date().optional(),
-  dueDate: z.coerce.date().optional(),
-});
+// Re-export projectSchema from validations.ts (the canonical source)
+export { projectSchema } from './validations';
+export type { ProjectInput } from './validations';
 
 export const teamSchema = z.object({
   name: z.string().min(1).max(50),
@@ -29,6 +23,5 @@ export const settingsSchema = z.object({
   }),
 });
 
-export type Project = z.infer<typeof projectSchema>;
 export type Team = z.infer<typeof teamSchema>;
 export type Settings = z.infer<typeof settingsSchema>;

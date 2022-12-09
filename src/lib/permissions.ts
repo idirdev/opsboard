@@ -1,4 +1,4 @@
-export type Role = 'owner' | 'admin' | 'member' | 'viewer';
+export type Role = 'admin' | 'manager' | 'member' | 'viewer';
 
 interface Permission {
   action: string;
@@ -6,10 +6,10 @@ interface Permission {
 }
 
 const ROLE_PERMISSIONS: Record<Role, Permission[]> = {
-  owner: [
+  admin: [
     { action: '*', resource: '*' },
   ],
-  admin: [
+  manager: [
     { action: 'read', resource: '*' },
     { action: 'write', resource: 'projects' },
     { action: 'write', resource: 'team' },
@@ -40,7 +40,7 @@ export function getRolePermissions(role: Role): Permission[] {
 }
 
 export function isAtLeast(userRole: Role, requiredRole: Role): boolean {
-  const hierarchy: Role[] = ['viewer', 'member', 'admin', 'owner'];
+  const hierarchy: Role[] = ['viewer', 'member', 'manager', 'admin'];
   return hierarchy.indexOf(userRole) >= hierarchy.indexOf(requiredRole);
 }
 

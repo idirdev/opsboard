@@ -1,30 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { z } from "zod";
-
-const loginSchema = z.object({
-  email: z.string().email(),
-  password: z.string().min(8),
-});
-
-const registerSchema = z.object({
-  name: z.string().min(2).max(50),
-  email: z.string().email(),
-  password: z.string().min(8).regex(/[A-Z]/).regex(/[0-9]/),
-});
-
-const projectSchema = z.object({
-  name: z.string().min(1).max(100),
-  description: z.string().max(500).optional(),
-  status: z.enum(["planning", "active", "on_hold", "completed", "archived"]).optional(),
-  priority: z.enum(["low", "medium", "high", "critical"]).optional(),
-  budget: z.number().positive().optional(),
-});
-
-const webhookSchema = z.object({
-  name: z.string().min(1).max(100),
-  url: z.string().url(),
-  events: z.array(z.string()).min(1),
-});
+import { loginSchema, registerSchema, projectSchema, webhookSchema } from "../src/lib/validations";
 
 describe("loginSchema", () => {
   it("validates correct input", () => {

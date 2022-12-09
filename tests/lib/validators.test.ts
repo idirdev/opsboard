@@ -19,9 +19,9 @@ describe('validators', () => {
       const result = projectSchema.safeParse({ name: 'Test', status: 'invalid' });
       expect(result.success).toBe(false);
     });
-    it('defaults priority to medium', () => {
-      const result = projectSchema.parse({ name: 'Test', status: 'active' });
-      expect(result.priority).toBe('medium');
+    it('accepts project without status (optional)', () => {
+      const result = projectSchema.safeParse({ name: 'Test' });
+      expect(result.success).toBe(true);
     });
   });
 
